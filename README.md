@@ -7,9 +7,9 @@
 ### 👨‍🔬 About Me
 I am a Ph.D. researcher focusing on **Artificial Intelligence**. My primary research interests include **Computer Vision** and **Generative Adversarial Networks**. I am passionate about bridging the gap between theoretical research and practical applications.
 
-* 🎓 Ph.D. Candidate at [您的大学名称]
-* 📄 Focusing on: `Diffusion Models`, `Image Synthesis`, `Self-Supervised Learning`
-* 📫 Contact: [您的邮箱@university.edu]
+* 🎓 Ph.D. Candidate at kobe universite
+* 📄 Focusing on: `Diffusion Models`, `Dialogue System`, `Self-Supervised Learning`
+* 📫 Contact: xueqiang199305@gmail.com
 
 <br/>
 
