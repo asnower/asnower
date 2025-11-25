@@ -48,7 +48,7 @@ I am a Ph.D. researcher focusing on **Artificial Intelligence**. My primary rese
 <br/>
 
 <div align="center">
-  <a href="您的Google Scholar链接">
+  <a href="https://scholar.google.com/citations?user=kRPW4r0AAAAJ">
     <img src="https://img.shields.io/badge/Google%20Scholar-Follow%20My%20Research-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" />
   </a>
 </div>
