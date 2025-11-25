@@ -1,15 +1,22 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:333333&height=250&section=header&text=AI%20Research%20and%20Deep%20Learning&fontSize=45&fontColor=ffffff&desc=PhD%20Candidate%20%7C%20Computer%20Vision%20%7C%20Generative%20Models&descSize=20&descAlignY=75" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:333333&height=250&section=header&text=Dialogue%20Systems%20%26%20NLP&fontSize=45&fontColor=ffffff&desc=PhD%20Candidate%20%7C%20Conversational%20AI%20%7C%20Knowledge-Grounded%20Dialogue&descSize=20&descAlignY=75" width="100%" />
 </div>
 
 <br/>
 
 ### 👨‍🔬 About Me
-I am a Ph.D. researcher focusing on **Artificial Intelligence**. My primary research interests include **Computer Vision** and **Generative Adversarial Networks**. I am passionate about bridging the gap between theoretical research and practical applications.
 
-* 🎓 Ph.D. Candidate at kobe universite
-* 📄 Focusing on: `Diffusion Models`, `Dialogue System`, `Self-Supervised Learning`
-* 📫 Contact: xueqiang199305@gmail.com
+I am a Ph.D. researcher in **Conversational AI** at **Kobe University**.  
+My work focuses on **dialogue systems**, especially **knowledge-grounded response generation** and the **DialFill framework** for reliably using retrieved information in open-domain dialogue. I am interested in building dialogue agents that can:
+
+- faithfully use external knowledge instead of hallucinating,
+- flexibly paraphrase rather than copy,
+- and avoid generic, repetitive responses.
+
+* 🎓 Ph.D. Candidate at **Kobe University**
+* 🔍 Research topics: `Dialogue Systems`, `Knowledge-Grounded Dialogue`, `Retrieval-Augmented Generation`, `Dialogue Filling (DialFill)`, `Diffusion Language Models`, `Generative–Classification LMs`
+* 🧪 Currently working on: `DialFill Framework (v1–v3)`, `DialFill-DM`, `JudgerToken-based repetition control`
+* 📫 Contact: **xueqiang199305@gmail.com**
 
 <br/>
 
@@ -17,16 +24,30 @@ I am a Ph.D. researcher focusing on **Artificial Intelligence**. My primary rese
 
 ### 🔬 Selected Projects & Publications
 
-| **Project A: 某种基于扩散模型的新算法** | **Project B: 强化学习机器人仿真** |
+| **DialFill: Dialogue Filling for Knowledge-Grounded Dialogue** | **DialFill-DM: Diffusion Models for Controllable Dialogue** |
 | :--- | :--- |
 | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJqOThwODV4bnYzYnB4YnB4YnB4/giphy.gif" width="100%"> | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJqOThwODV4bnYzYnB4YnB4YnB4/giphy.gif" width="100%"> |
-| • **CVPR 2024 (Oral)**<br>• 提出了一种新的 Attention 机制，提升了生成速度。<br>• **Tech:** PyTorch, Diffusers<br>• [![Paper](https://img.shields.io/badge/arXiv-2301.xxxxx-b31b1b?logo=arxiv)](https://arxiv.org) [![Code](https://img.shields.io/badge/Github-Code-black?logo=github)](您的项目链接) | • **ICLR 2023**<br>• 解决了稀疏奖励环境下的探索难题。<br>• **Tech:** OpenAI Gym, MuJoCo<br>• [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](您的论文链接) [![Video](https://img.shields.io/badge/Demo-Video-red?logo=youtube)](您的视频链接) |
+| • **IEEE Access, 2025** – reframes knowledge-grounded dialogue as a **Dialogue Filling** task instead of direct generation.<br>• Ensures that selected knowledge appears in the final response while keeping the wording natural.<br>• Evaluated on both structured and unstructured knowledge benchmarks (e.g., Wizard-of-Wikipedia, OpenDialKG).<br>• **Keywords:** Dialogue Filling, knowledge integration, retrieval-augmented generation.<br>• [![Paper](https://img.shields.io/badge/IEEE%20Access-Paper-blue)](YOUR_DIALFILL_PAPER_LINK) [![Code](https://img.shields.io/badge/GitHub-Code-black?logo=github)](YOUR_DIALFILL_CODE_LINK) | • **Diffusion-based Dialogue Filling** – replaces the autoregressive generator in DialFill with a **masked diffusion language model** for more controllable answer spans.<br>• Introduces a **length head** (to locate the answer region) and a **keyword head** (to control which entities are copied), improving robustness to noisy retrieval.<br>• Designed to integrate knowledge graphs and text passages in a compact, controllable way.<br>• **Keywords:** diffusion language models, controllable generation, knowledge-grounded dialogue.<br>• [![Paper](https://img.shields.io/badge/Paper-Preprint-blue)](YOUR_DIALFILL_DM_PAPER_LINK) [![Code](https://img.shields.io/badge/GitHub-Code-black?logo=github)](YOUR_DIALFILL_DM_CODE_LINK) |
+
+<br/>
+
+#### 🧵 More Research Highlights
+
+- **Dialogue-Filling in Retrieval–Generation Systems**  
+  Developed text-infilling based response control for retrieval–generation dialogue systems, ensuring that retrieved responses are actually used instead of ignored.
+
+- **JudgerToken: Single-Token Repetition Control**  
+  Proposed a **single-token generative–classification method** (JudgerToken) that uses the LM’s own logits to detect and suppress repetitive or low-quality responses without extra classifiers.
+
+- **Knowledge Graph Memory for Dialogue**  
+  Explored how to store and reuse knowledge-graph information inside dialogue models to improve consistency across turns.
 
 <br/>
 
 ---
 
 ### 🛠️ Tech Stack
+
 <div align="left">
   <a href="https://pytorch.org/">
     <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" />
