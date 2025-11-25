@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:333333&height=250&section=header&text=Dialogue%20Systems%20%26%20NLP&fontSize=45&fontColor=ffffff&desc=PhD%20Candidate%20%7C%20Conversational%20AI%20%7C%20Knowledge-Grounded%20Dialogue&descSize=20&descAlignY=75" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:000000,100:333333&amp;height=250&amp;section=header&amp;text=Dialogue%20Systems%20%26%20NLP&amp;fontSize=45&amp;fontColor=ffffff&amp;desc=PhD%20Candidate%20%7C%20Conversational%20AI%20%7C%20Knowledge-Grounded%20Dialogue&amp;descSize=20&amp;descAlignY=75" width="100%" />
 </div>
+
 
 <br/>
 
